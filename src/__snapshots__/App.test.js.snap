@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot test updated 1`] = `
+<div
+  className="App wrapper"
+>
+  <h3
+    className="greetings"
+  >
+    Hello, Check Who's Birthday is Coming Up!
+  </h3>
+  <div
+    className="search-appointments row justify-content"
+  >
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="input-group"
+      >
+        <input
+          aria-label="Search List"
+          className="form-control"
+          id="SearchList"
+          onChange={[Function]}
+          type="text"
+        />
+        <div
+          className="input-group-append"
+        >
+          <button
+            aria-expanded="false"
+            aria-haspopup="true"
+            className="btn sort-btn-css dropdown-toggle"
+            data-toggle="dropdown"
+            type="button"
+          >
+            Sort by: 
+            <span
+              className="caret"
+            />
+          </button>
+          <div
+            className="sort-menu dropdown-menu dropdown-menu-right"
+          >
+            <button
+              className="sort-by dropdown-item active"
+              href="#"
+              onClick={[Function]}
+            >
+              First Name
+            </button>
+            <button
+              className="sort-by dropdown-item "
+              href="#"
+              onClick={[Function]}
+            >
+              Last Name
+            </button>
+            <button
+              className="sort-by dropdown-item "
+              href="#"
+              onClick={[Function]}
+            >
+              Country
+            </button>
+            <div
+              className="dropdown-divider"
+              role="separator"
+            />
+            <button
+              className="sort-by dropdown-item active"
+              href="#"
+              onClick={[Function]}
+            >
+              Asc
+            </button>
+            <button
+              className="sort-by dropdown-item "
+              href="#"
+              onClick={[Function]}
+            >
+              Desc
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Date of Birth
+          </th>
+          <th>
+            Birthday status
+          </th>
+          <th
+            className="country-item"
+          >
+            Country
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;
