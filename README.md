@@ -4,19 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `docker-compose build`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+should build the project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `docker-compose run`
 
-### `npm test`
+Should launch the app on port 3000
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+### App Requirements
 A small application using JavaScript which parses and displays
 data from a public API. The application should run in and display its
 output in a web browser and should generate no errors. Feel free to
